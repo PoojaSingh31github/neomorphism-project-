@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Neumorphism</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./tailwind.config.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class=" ">
+    <div
+      class="bg-primary-light relative dark:bg-primary-dark w-full flex flex-col items-center justify-center h-screen transition duration-500"
+    >
+      <div class="mt-6 mr-5 absolute top-1 right-1">
+        <label class="switch">
+          <input type="checkbox" class="theme-toggle" />
+          <span class="slider"></span>
+        </label>
+      </div>
+      <div class="w-96">
+        <!-- Profile Card -->
+        <div class="container text-center">
+          <div
+            id="profile-card"
+            class="neumorphic p-6 rounded-2xl transition duration-500 relative"
+          >
+            <div class="flex justify-between items-center">
+              <div>
+                <button class="text-text-light dark:text-text-dark">
+                  <i class="fas fa-arrow-left"></i>
+                </button>
+              </div>
+
+              <button class="text-text-light dark:text-text-dark">
+                <i class="fas fa-ellipsis-h"></i>
+              </button>
+            </div>
+            <!-- Profile Image -->
+            <div
+              class="w-24 h-24 mx-auto rounded-full mb-4 img_profile bg-primary-dark dark:bg-button-light"
+            ></div>
+
+            <!-- Name and Title -->
+            <h2
+              class="pt-4 text-lg font-semibold text-text-light dark:text-text-dark"
+            >
+              Pooja Singh
+            </h2>
+            <p class="text-text-light dark:text-text-dark">Software Engineer</p>
+
+            <!-- Bio Section -->
+            <p class="mt-3 text-text-light dark:text-text-dark text-sm pt-6">
+              Passionate about building impactful web applications with modern
+              technologies like React, Node.js, and Python. Always learning and
+              sharing new skills!
+            </p>
+
+            <!-- Action Buttons -->
+            <div class="mt-14 flex justify-around">
+              <!-- Share Button -->
+              <button
+                class="py-1 px-3 neumorphic-btn bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark rounded-full shadow-lg"
+              >
+                <i class="fas fa-share"></i> Share
+              </button>
+
+              <!-- Like Button -->
+              <button
+                class="py-1 px-3 neumorphic-btn bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark rounded-full shadow-lg"
+              >
+                <i class="fas fa-thumbs-up"></i> Like
+              </button>
+
+              <!-- Comment Button -->
+              <button
+                class="py-1 px-3 neumorphic-btn bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark rounded-full shadow-lg"
+              >
+                <i class="fas fa-comment"></i> Comment
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="bg-primary-light relative dark:bg-primary-dark w-full flex flex-col items-center justify-center h-screen transition duration-500"
+    >
+      <div class="mt-6 mr-5 absolute top-1 right-1">
+        <label class="switch">
+          <input type="checkbox" class="theme-toggle" />
+          <span class="slider"></span>
+        </label>
+      </div>
+      <div class="keyboard_main_div">
+        <div class="keyboard_base w-full bg-primary-light dark:bg-primary-dark">
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          >
+            ~
+          </button>
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            1
+          </button>
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            2
+          </button>
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            3
+          </button>
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            4
+          </button>
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            5
+          </button>
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            6
+          </button>
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            7
+          </button>
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            8
+          </button>
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            9
+          </button>
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            0
+          </button>
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            DELETE
+          </button>
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            TAB
+          </button>
+
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            Q
+          </button>
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            W
+          </button>
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            E
+          </button>
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            R
+          </button>
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            T
+          </button>
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            Y
+          </button>
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            U
+          </button>
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            I
+          </button>
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            O
+          </button>
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            P
+          </button>
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            \
+          </button>
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            CAPS
+          </button>
+
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            A
+          </button>
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            S
+          </button>
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            D
+          </button>
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            F
+          </button>
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            G
+          </button>
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            H
+          </button>
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            J
+          </button>
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            K
+          </button>
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            L
+          </button>
+          <button class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark" id="enter">ENTER</button>
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            <i class="fa-solid fa-arrow-up"></i>SHIFT
+          </button>
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            Z
+          </button>
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            X
+          </button>
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            C
+          </button>
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            V
+          </button>
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            B
+          </button>
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            N
+          </button>
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            M
+          </button>
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            <
+          </button>
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            >
+          </button>
+
+          <button class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark" id="shift">SHIFT</button>
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            <i class="fa-solid fa-globe"></i>
+          </button>
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            CONTROLS
+          </button>
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            OPTIONS
+          </button>
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            ALT
+          </button>
+
+          <button class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark" id="space">SPACE</button>
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            ALT
+          </button>
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            OPTIONS
+          </button>
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            <i class="fa-solid fa-arrow-left"></i>
+          </button>
+          <button
+            class="bg-button-light dark:bg-button-dark text-text-light dark:text-text-dark dark:hover:bg-primary-dark"
+          
+          >
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // JavaScript for toggling Dark and Light Mode
+      const themeToggleBtns = document.querySelectorAll(".theme-toggle");
+      const bodyElement = document.body;
+
+      themeToggleBtns.forEach((toggleBtn) => {
+        toggleBtn.addEventListener("click", () => {
+          bodyElement.classList.toggle("dark");
+        });
+      });
+    </script>
+  </body>
+</html>
